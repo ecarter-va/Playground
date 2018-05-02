@@ -1,12 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  animate,
-  trigger,
-  style,
-  transition,
-  state,
- } from '@angular/animations';
- import { MoveonClick } from '../animations';
+import { MoveonClick } from '../animations';
 
 @Component({
   selector: 'app-box',
