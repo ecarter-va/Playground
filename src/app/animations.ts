@@ -15,6 +15,6 @@ export const MoveonClick = trigger('MoveonClick', [
       left: '100px'
 
     })),
-    transition('isLeft <=> isRight', animate('3s ease-in'))
+    transition('isLeft <=> isRight', animate('3s ease-in-out'))
 ]);
 
